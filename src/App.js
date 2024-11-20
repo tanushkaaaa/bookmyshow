@@ -1,16 +1,16 @@
-import React from 'react'
-import Home from './Pages/Home'
-import BsState from './Context/BsState'
+import React from 'react';
+import './App.css';
+import BsState from './Context/BsState';
+import Home from './Pages/Home';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <BsState>
-      <Home/>
-      </BsState>
-      
+    <div className="App">
+    <BsState>
+    <Home />
+  </BsState> 
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
